@@ -18,8 +18,85 @@ html, body, .cover {
   vertical-align: middle;
 }
 
-.cover-text h1{
+.cover-text h1 {
   margin: 0;
   letter-spacing: -3px;
-  font-size: 70px;  
+  font-size: 70px;
+}
+
+nav.navbar-inverse {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.testimonial {
+  background: #222;
+}
+
+blockquote {
+  border: none;
+  margin: 0;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  font-size: 32px;
+  color: white;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  color: #888;
+  margin-top: 40px;
+}
+
+section {
+  padding: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  text-transforms: uppercase;
+  margin: 0 0 60px;
+}
+
+h2+p {
+  text-align: center;
+  margin-top: -60px;
+}
+
+#team {
+  background: url('img/fan.jpg') top left no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: Georgia, Times, serif;
+}
+
+footer a {
+  color: hotpink;
+}
+
+/* Media Queries*/
+
+@@media only screen and ( max-width: 568px) {
+  .cover h1 {
+    font-size: 40px;
+  }
+  section {
+    padding: 20px;
+  }
 }
